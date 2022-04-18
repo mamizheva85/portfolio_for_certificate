@@ -1,0 +1,70 @@
+@import url("https://use.typekit.net/rhf2ikv.css");
+@font-face {
+	font-family: Raleway;
+	src: url('../fonts/Raleway-ExtraBold.woff2') format('woff2'), url('../fonts/Raleway-ExtraBold.woff') format('woff');
+	font-weight: 700;
+	font-style: bold;
+	font-display: swap;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	background-color: #252934;
+	height: 100%;
+}
+canvas {
+	width: 100%;
+	height: 100%;
+
+}
+.home {
+	display: flex;
+	justify-content: center;
+	position:absolute;
+	width:100%;
+	top:50%;
+	text-align:center;
+	flex-direction: column;
+
+}
+.hello {
+	color:#19c2c9;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	font-size: 60px;
+	margin-bottom: 20px;
+	margin-top: -60px;
+}
+.developer {
+	color: white;
+	text-align: center;
+	font-size: 45px;
+	margin-bottom: 30px;
+}
+.front-btn {
+	display: flex;
+	justify-content: center;
+	width: 200px;
+	margin: 0 auto;
+	background-color: black;
+	border: white 2px solid;
+	color: white;
+	padding: 20px;
+	font-size: 17px;
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+}
+.front-btn:hover {
+	background-color: #19c2c9;
+	border-color: #19c2c9;
+	transition: 2s;
+}
+.arrow {
+	width:20px;
+	align-self: center;
+	margin-left: 10px;
+}
